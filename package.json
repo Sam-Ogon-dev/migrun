@@ -1,0 +1,12 @@
+{
+  "name": "migrun",
+  "version": "1.0.10",
+  "description": "",
+  "main": "index.js",
+  "bin": "./index.js",
+  "author": "samogon",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.2.0"
+  }
+}
