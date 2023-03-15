@@ -1,10 +1,11 @@
 {
   "name": "migrun",
-  "version": "1.0.10",
+  "version": "1.0.15",
   "description": "",
   "main": "index.js",
   "bin": "./index.js",
   "author": "samogon",
+  "repository": "https://github.com/Sam-Ogon-dev/migrun",
   "license": "ISC",
   "dependencies": {
     "mysql2": "^3.2.0"

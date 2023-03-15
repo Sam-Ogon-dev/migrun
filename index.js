@@ -15,8 +15,8 @@ switch (command) {
         migrate().then()
         break
     case "rollback":
-        const amount = +process.argv[3] || 999999999;
-        rollback(amount).then()
+        const amount = process.argv[3] || 0;
+        rollback(+amount).then()
         break
     case "init":
         init()
